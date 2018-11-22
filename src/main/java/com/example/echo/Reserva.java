@@ -1,43 +1,27 @@
 package com.example.echo;
 
 public class Reserva {
-	private String idPasajero;
-	private Long idRuta;
-	private Long asientos;
+	private String correoPasajero;
+	private String correoConductor;
+	private int asientos;
+	private int idRuta;
 	
-	/**
-	 * The object {@link Reserva} have the information about the route, the passenger that makes the reservation
-	 * and the number of seats that will be reserved
-	 */
-	public Reserva(String pIdPasajero, Long pIdRuta, Long pAsientos) {
-		this.idPasajero = pIdPasajero;
-		this.idRuta = pIdRuta;
-		this.asientos =  pAsientos;
+	public String getCorreoPasajero() {
+		return correoPasajero;
 	}
-
-	public String getIdPasajero() {
-		return idPasajero;
+	public void setCorreoPasajero(String correoPasajero) {
+		this.correoPasajero = correoPasajero;
 	}
-
-	public void setIdPasajero(String idPasajero) {
-		this.idPasajero = idPasajero;
-	}
-
-	public Long getIdRuta() {
-		return idRuta;
-	}
-
-	public void setIdRuta(Long idRuta) {
-		this.idRuta = idRuta;
-	}
-
-	public Long getAsientos() {
+	public int getAsientos() {
 		return asientos;
 	}
-
-	public void setAsientos(Long asientos) {
+	public void setAsientos(int asientos) {
 		this.asientos = asientos;
 	}
-	
-	
+	public int getIdRuta() {
+		return idRuta;
+	}
+	public void setIdRuta(int idRuta) {
+		this.idRuta = idRuta;
+	}
 }

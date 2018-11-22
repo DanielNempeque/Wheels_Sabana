@@ -62,7 +62,6 @@ public class Facade {
 @ApiMethod(name = "crearReserva")
   public Reserva crearReserva(@Named("idRuta") int idRuta, @Named("asientos") int asientos,
   @Named("correoPasajero") String correoPasajero) {
-      
     Reserva response = new Reserva();
     response.setCorreoPasajero(correoPasajero);
     response.setAsientos(asientos);
