@@ -87,7 +87,7 @@ public class Facade {
 public void eliminarReserva(@Named("correoPasajero") String correoPasajero,@Named("idRuta") int idRuta) {
 		 for (int i = 0; i < reservas.size(); i++) {
 				if (reservas.get(i).getCorreoPasajero().equals(correoPasajero) && reservas.get(i).getIdRuta() == idRuta) {
-					reservas.remove(reservas.get(i));
+					reservas.remove(i);
 		
 				}
 		 }
