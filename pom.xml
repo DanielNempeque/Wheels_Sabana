@@ -44,11 +44,7 @@
     <endpoints.framework.version>2.2.0</endpoints.framework.version>
     <endpoints.management.version>1.0.4</endpoints.management.version>
 
-<<<<<<< HEAD
     <endpoints.project.id>wheels-software</endpoints.project.id>
-=======
-    <endpoints.project.id>YOUR_PROJECT_ID</endpoints.project.id>
->>>>>>> branch 'jenncy' of https://github.com/DanielNempeque/Wheels_Sabana.git
   </properties>
 
   <dependencies>

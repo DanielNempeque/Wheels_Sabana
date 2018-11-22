@@ -25,11 +25,7 @@
         <servlet-class>com.google.api.server.spi.EndpointsServlet</servlet-class>
         <init-param>
             <param-name>services</param-name>
-<<<<<<< HEAD
             <param-value>com.example.echo.Facade,com.example.echo.Proxy</param-value>
-=======
-            <param-value>com.example.echo.Echo</param-value>
->>>>>>> branch 'jenncy' of https://github.com/DanielNempeque/Wheels_Sabana.git
         </init-param>
     </servlet>
     <!-- Route API method requests to the backend. -->

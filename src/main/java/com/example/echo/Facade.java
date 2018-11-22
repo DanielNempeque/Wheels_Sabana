@@ -92,6 +92,17 @@ public void eliminarReserva(@Named("correoPasajero") String correoPasajero,@Name
 				}
 		 }
 	}
+public Reserva buscarReserva( String correoPasajero,  int idRuta,
+			 int asientos) {
+		for (Reserva r : reservas) {
+			if (r.getCorreoPasajero().equals(correoPasajero)&&r.getAsientos()==asientos&&r.getIdRuta()==idRuta) {
+				return r;
+
+			}
+		}
+		return null;
+
+	}
 	
 	 
 	
